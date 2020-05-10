@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id=outside>
+            <form id="survey" action="\google" method="post">
+                <h1 id=title>Cochin University Of Science And Technology</h1>
+                <p id="heading">Application Form</p>
+                <!-------------About Yourself------------------->
+                <fieldset>
+                    <legend>About Yourself</legend>
+                    <div>
+                        <label for="fname">First Name: </label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last Name: </label>
+                        <input type="text" id="lname" name="lname"><br><br>                       
+                    </div>
+                    <div>
+                        <label for="bdate">Date Of Birth: </label>
+                        <input type="date" name="bdate"><br><br>
+                    </div>
+                    <div>
+                        <label for="cat">Cat Rank</label>
+                        <input type="text" name="cat" id="cat" placeholder="enter your rank here"><br><br>                       
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Family Details</legend>
+                    <div>
+                        <label for="ftname">Father Name: </label>
+                        <input type="text" id="ftname" name="ftname"><br><br>
+                        <label for="occ">Occupation: </label>
+                        <input type="text" name="occ" id="occ"><br><br>
+                        <label for="mname">Mother Name: </label>
+                        <input type="text" id="mname" name="mname"><br><br>
+                        <label for="occ">Occupation: </label>
+                        <input type="text" name="occ" id="occ"><br><br>
+                        <div>
+                            <label for="sibling">Any Sibling?</label>
+                            <p>
+                                <input type="radio" value="yes" name="sibling">yes<br>
+                                <input type="radio" value="no" name="sibling">no<br>
+                            </p>
+                        </div>
+                        <div>
+                            <label for="cs">If yes, are they studying in cusat?</label>
+                            <p>
+                                <input type="radio" value="yes" name="cs">yes<br>
+                                <input type="radio" value="no" name="cs">no<br>
+                            </p>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Education</legend>
+                    <div>
+                        <label for="na">School name:</label>
+                        <input type="text" id="na" name="na"><br>
+                        <label for="grad">Date of graduation: </label>
+                        <input type="date" name="grad"><br>
+                        
+                    </div>
+                </fieldset>
+                <section>
+                    <input type="submit" value="submit">
+                </section>
+            </form>
+        </div>
+    </body>
+</html>
