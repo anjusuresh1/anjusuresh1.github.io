@@ -13,7 +13,7 @@
 
 :blue_heart:**Webpage layout**
 
-![click here](file:///C:/Users/Anju/AppData/Local/Temp/Temp1_project.html.zip/project.html-1.jpg)
+![click here](file:///C:/Users/Anju/Desktop/study/project.html)
 
 :four_leaf_clover:**Build using**
 
